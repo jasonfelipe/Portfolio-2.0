@@ -46,6 +46,38 @@ a, a:hover, a:focus {
     margin: 40px 0;
 }
 
+#page1 {
+    margin-top: 30px;
+    height: 1000px;
+}
+
+#page2 {
+    margin-top: 30px;
+    height: 2000px;
+}
+#page3 {
+    margin-top: 30px;
+    height: 1000px;
+}
+
+.btn {
+    background-color: #34d6db !important;
+    border:rgb(7, 158, 158) !important;
+}
+
+.btn:hover {
+    background-color:rgb(7, 158, 158) !important;
+
+}
+
+/* ---------------------------------------------------
+    FOOTER STYLE
+----------------------------------------------------- */
+footer{
+    color:#eee; 
+    background-color: #252525; 
+    border-top: 2px solid #34d6db
+}
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -65,6 +97,7 @@ a, a:hover, a:focus {
     color: #fff;
     transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
     transform-origin: bottom left;
+    height: max-content;
 }
 
 #sidebar.active {
@@ -144,14 +177,7 @@ a.linkedin, a.linkedin:hover {
 }
 
 
-/* ---------------------------------------------------
-    FOOTER STYLE
------------------------------------------------------ */
-footer{
-    color:#eee; 
-    background-color: #252525; 
-    border-top: 2px solid #34d6db
-}
+
 
 
 /* ---------------------------------------------------
@@ -197,8 +223,6 @@ footer{
     opacity: 1;
     margin: 5px auto;
 }
-
-
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
