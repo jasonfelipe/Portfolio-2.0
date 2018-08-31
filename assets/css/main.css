@@ -6,8 +6,9 @@
 
 
 body {
+    background: url("../images/background/what-the-hex-dark.png") !important;
     font-family: 'Poppins', sans-serif;
-    background-image: url("../images/spiration-dark.png") !important;
+    background: black;
 }
 
 p {
@@ -231,7 +232,7 @@ a.linkedin, a.linkedin:hover {
 ----------------------------------------------------- */
 #content {
     width: 100%;
-    padding: 20px;
+    padding:20px;
     min-height: 100vh;
     transition: all 0.3s;
 }
