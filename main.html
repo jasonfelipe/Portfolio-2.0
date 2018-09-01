@@ -67,7 +67,7 @@
         <div id='content'>
             <div id='page1'>
                 <a id='about' class='smooth'></a>
-                <div class="container p-3 mb-2 bg-white text-dark smooth">
+                <div id='about-page' class="container p-3 mb-2 bg-white text-dark smooth">
                     <div class="row">
                         <div class="col-sm-12">
                             <h2 style="margin-bottom:20px; color: #7f52a5; border-bottom: 2px solid #cccccc; line-height:150%">
@@ -115,27 +115,59 @@
                     <div class="carousel-inner ">
                         <div class="carousel-item active">
                             <a href='project1'></a>
-                            <img class="d-block" src="assets/images/portfolio/marvelproject.png" alt="Project One">
-                            <div class="carousel-caption d-none d-md-block ">
-                                <h5 class='carousel-title'>Marvel Collab Search</h5>
-                                <p class='carousel-p'>A Marvel Character Collab Search using Ebay and Marvel APIs!</p>
-                            </div>
+                            <div class="card">
+                                <img class="card-img-top" src="assets/images/portfolio/marvelproject.png" alt="marvelproject">
+                                <div class="card-body">
+                                  <h5 class="card-title">Marvel Collab Finder</h5>
+                                  <p class="card-text">A two Marvel character search to find their collaborations in comics!</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">APIs: Marvel and Ebay</li>
+                                  <li class="list-group-item">One HTML page</li>
+                                  <li class="list-group-item">Mobile friendly</li>
+                                </ul>
+                                <div class="card-body card-links">
+                                  <a href="https://github.com/maxyeamans/soaring-indigo-mimes" class="btn card-link">Github Link!</a>
+                                  <a href="https://maxyeamans.github.io/soaring-indigo-mimes/" class="btn card-link">Website Link!</a>
+                                </div>
+                              </div>
                         </div>
                         <div class="carousel-item">
                             <a href='project2'></a>
-                            <img class="d-block" src="assets/images/portfolio/0penroom.png" alt="Project Two">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5 class='carousel-title'>0penroom</h5>
-                                <p class='carousel-p'>A chatroom using socket.io and mySQL databases!</p>
-                            </div>
+                            <div class="card">
+                                <img class="card-img-top" src="assets/images/portfolio/0penroom.png" alt="0penroom">
+                                <div class="card-body">
+                                  <h5 class="card-title">0penroom</h5>
+                                  <p class="card-text">A chatroom that has dynamically creatable topic rooms, chat logs, and usernames</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">Uses Socket.Io</li>
+                                  <li class="list-group-item">One HTML page</li>
+                                  <li class="list-group-item">MySQL Database</li>
+                                </ul>
+                                <div class="card-body card-links">
+                                  <a href="https://github.com/gladavis89/projectTwo" class="btn card-link">Github Link!</a>
+                                  <a href="http://www.0penroom.com/" class="btn card-link">Website Link!</a>
+                                </div>
+                              </div>
                         </div>
                         <div class="carousel-item">
                             <a href='project3'></a>
-                            <img class="d-block" src="assets/images/portfolio/sfwordgame.png" alt="Project Three">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5 class='carousel-title'>Street Fighter Word Game</h5>
-                                <p class='carousel-p'>A small game made with javascript using Street Fighter Characters!</p>
-                            </div>
+                            <div class="card">
+                                <img class="card-img-top" src="assets/images/portfolio/liri.png" alt="liribot">
+                                <div class="card-body">
+                                  <h5 class="card-title">LIRI Bot</h5>
+                                  <p class="card-text">A node.js bot that can bring up twitter posts, spotify links, and movie information</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">Javascript based</li>
+                                  <li class="list-group-item">NPMs: Inquirer, Twitter, Spotify, OMDB</li>
+                                  <li class="list-group-item">Easy to use</li>
+                                </ul>
+                                <div class="card-body card-links">
+                                  <a href="https://github.com/jasonfelipe/liri-node-app" class="btn card-link">Github Link!</a>
+                                </div>
+                              </div>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#projectCarousel" role="button" data-slide="prev">

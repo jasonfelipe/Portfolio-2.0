@@ -92,6 +92,14 @@ a, a:hover, a:focus {
 
 }
 
+#about-page {
+    margin-top: 200px;
+}
+
+/* ---------------------------------------------------
+    CAROUSEL STYLE
+----------------------------------------------------- */
+
 .carousel-inner img {
     margin: auto;
     height: 300px;
@@ -112,7 +120,37 @@ a, a:hover, a:focus {
 }
 
 .carousel-p{
-    color: #fff;
+    color: #eee;
+}
+
+
+/* ---------------------------------------------------
+    CARD STYLE
+----------------------------------------------------- */
+
+.card {
+    margin: 0 auto;
+    width: 800px;
+    background: black;
+}
+
+.list-group-item {
+    color: #ce6cec;    
+    background: black;
+    border-color: #34d6db !important
+
+}
+
+.card-title {
+    color:#eee
+}
+
+.card-img-top {
+    margin: 0 auto;
+}
+
+.card-links {
+    color: rgb(211, 207, 207);
 }
 /* ---------------------------------------------------
     FOOTER STYLE
